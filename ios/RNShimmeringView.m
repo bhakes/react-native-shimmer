@@ -64,7 +64,7 @@
     
     CGFloat length = (direction == FBShimmerDirectionDown || direction == FBShimmerDirectionUp) ? CGRectGetHeight(bounds) : CGRectGetWidth(bounds);
     
-    CGFloat speed = 230;
+    CGFloat speed = 40;
     if (length > 0) {
       speed = length / _shimmeringDuration;
     }
